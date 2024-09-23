@@ -1,14 +1,16 @@
 import './App.css'
-import SecondComponent from './SecondComponent'
 import User from './User'
 
 function App() {
 
+  const info = {
+    name  : 'John',
+    age   : 32
+  }
 
   return (
     <>
-      <SecondComponent/>
-      <User/>
+      <User {...info}/>
     </>
   )
 }
