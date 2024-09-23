@@ -15,3 +15,9 @@ git remote add origin git@github.com:OscarSergent/react-week1
 git add .
 git commit -m 'initial commit'
 git push -u origin master
+```
+
+# Switch branch command
+```bash
+git checkout -b dev
+```

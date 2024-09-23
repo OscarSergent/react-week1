@@ -1,4 +1,4 @@
 .myButton {
     background-color: red;
-    border-radius: 5%;
+    border: 2px white solid;
 }
